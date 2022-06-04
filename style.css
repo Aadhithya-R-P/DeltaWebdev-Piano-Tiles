@@ -1,0 +1,66 @@
+body {
+    background-image: url(bckg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+table,tr,td {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+table#game
+{
+	background-color: rgb(173, 254, 214);
+}
+
+td {
+    background-color: black;
+    width: 81px; 
+    height: 81px;
+}
+
+td:hover
+{
+	background-color: rgb(193, 215, 215);
+	cursor: pointer;
+}
+
+#Start
+{
+    background-color: coral;
+    font-size: medium;
+    margin-top: 1%;
+}
+
+#Start:hover
+{
+    background-color: azure;
+}
+
+span#score
+{
+	color: brown;
+}
+
+@keyframes animate
+{
+	from { background-color: black; }
+	to { background-color: rgb(193, 215, 215); }
+}
+
+.animationClass
+{
+	animation-name: animate;
+	animation-duration: 1s;
+}
